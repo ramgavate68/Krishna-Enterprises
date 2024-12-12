@@ -18,12 +18,12 @@ header {
 }
 
 header .logo {
-    max-width: 100px;
+    max-width: 90px;
     border-radius: 50%;
-    margin-bottom: 1em;
+    margin-right: 1%;
 }
 
-header h1 {
+header h2 {
     font-size: 2.5rem;
     margin-bottom: 0.5em;
 }
@@ -104,17 +104,26 @@ h2 {
 }
 
 #whatsapp-btn {
-    display: block;
-    margin: 1em auto;
-    padding: 0.8em 1.5em;
-    background-color: #25d366;
-    color: white;
-    font-size: 1rem;
+    display: inline-block;
+    margin: 0em auto;
+    padding: 0;
     border: none;
-    border-radius: 5px;
+    background: transparent;
     cursor: pointer;
-    text-align: center;
+    outline: none;
 }
+
+#whatsapp-btn img {
+    display: block;
+    box-shadow: none;
+    transition: box-shadow 0.3s ease;
+}
+
+#whatsapp-btn:hover img {
+    box-shadow: 0px 4px 10px rgba(38, 70, 83, 0.8);
+    border-radius: 8px;
+}
+
 
 footer {
     text-align: center;
